@@ -1,77 +1,4 @@
-/* 
-Superio | Just another HTML Template
 
-Template Name: Superio
-Author: Creative Layers
-Version: 1.0.0
-
-/************ TABLE OF CONTENTS ***************
-1. Fonts
-2. Reset
-3. Global
-4. Content Elements 
-5. Main Header / Two / Three / Four / Five
-6. Sticky Header
-7. Mobile Header
-8. Login Popup
-9. Page Title
-10. Section Title
-11. Banner Section / One to Ten
-12. Work Section
-13. Job Categories
-14. Job Section / Two / Three / Four / Five / Six
-15. Job Detail Section / Style two
-16. Features Section
-17. Testimonial Section / Two / Three / Four
-18. Clients Section / Two
-19. About Section / Two / Three
-20. Fun Fact Section
-21. Recruiter Section 
-22. Jobseeker Section
-23. Candidates Section / Two
-24. Candidate Detail Section
-25. Listing Section 
-26. Listing Show More
-27. Listing Pagination
-28. Listing Section Two / Three / Four
-29. Listing Maps
-30. Top Companies
-31. Ads Section
-32. Registeration Banners
-33. News Section / Two / Three
-34. Blog Grid
-35. Blog Single
-36. Products Section
-37. Shop Single
-38. Product Tabs
-39. Cart Section
-40. CheckOut Page
-41. Order Slip
-42. App Section
-43. Pricing Section
-44. Process Section
-45. steps Section
-46. Call To Action / Two / Three / Four
-47. Browse Jobs
-48. Subscribe Section / Two
-49. Faqs Section
-50. TNC Section
-51. Map Section
-52. Contact Section
-53. Login Section
-54. Invoice Section
-55. Main Footer / Two / Three / Four / Five / Six
-56. Dashboard
-57. User Sidebar
-58. Chat Widget
-**********************************************/
-/*** 
-
-====================================================================
-Fonts
-====================================================================
-
-***/
 @import url("icons.css");
 @import url("flaticon.css");
 @import url("fontawesome.css");
@@ -22332,4 +22259,23 @@ Work Section
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.blog-single .image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 800 / 400;
+  object-fit: cover;
+}
+h1 {
+  font-size: 2.5rem; /* Default for desktop */
+}
+@media (max-width: 768px) {
+  h1 {
+      font-size: 1.8rem; /* Smaller screens */
+  }
+}
+
+.mobile-header, #nav-mobile {
+  display: none !important;
 }
